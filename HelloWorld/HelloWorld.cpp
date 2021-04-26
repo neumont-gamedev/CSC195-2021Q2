@@ -2,14 +2,18 @@
 //
 
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
-    std::cout << "Git\n";
+    cout << "Hello World!\n";
+    cout << "Git\n";
+
+    cout << "Enter age: ";
+    int age;
+    cin >> age;
+    cout << "Age: " << age << std::endl;
 }
-
-
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
